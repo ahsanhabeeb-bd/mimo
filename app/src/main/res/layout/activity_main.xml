@@ -22,12 +22,13 @@
         />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="380dp"
+        android:layout_height="250dp"
         android:src="@drawable/logo_pic"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/phone_log"
         android:drawableLeft="@drawable/phone_logo"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -43,11 +44,12 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/mail_log"
         android:drawableLeft="@drawable/email_logo"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

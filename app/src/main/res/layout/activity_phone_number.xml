@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone_number"
+    android:orientation="vertical"
+    android:background="@drawable/number_bg"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+
+
+
+        >
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCode_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:inputType="number"
+            android:digits="0123456789"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Get OTP"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="#82b6c4"
+        />
+
+
+
+</LinearLayout>
