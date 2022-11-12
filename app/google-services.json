@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "614780153154",
+    "project_id": "mimofun-656b9",
+    "storage_bucket": "mimofun-656b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614780153154:android:ae189472d0345d3e33acdb",
+        "android_client_info": {
+          "package_name": "com.example.mimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614780153154-q6af86p9oir0hceosng5poijk28lumd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mimo",
+            "certificate_hash": "a70b7c53d4da5ab6a5fb11d8470643624f8c71f9"
+          }
+        },
+        {
+          "client_id": "614780153154-urh8352mems53ch216qjdl6p901p2lvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYcL4Ab1YvBpmrcNCweUNRJhV39dPdIWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614780153154-urh8352mems53ch216qjdl6p901p2lvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
