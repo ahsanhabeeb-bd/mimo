@@ -27,7 +27,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        mail_log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent go_email = new Intent(MainActivity.this,Email_reg.class);
+                startActivity(go_email);
+            }
+        });
 
     }
 }
