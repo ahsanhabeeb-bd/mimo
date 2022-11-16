@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         phone_log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent go_phon_num = new Intent(MainActivity.this,Phone_number.class);
+               Intent go_phon_num = new Intent(MainActivity.this,Login_mailActivity2.class);
                startActivity(go_phon_num);
             }
         });

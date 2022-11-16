@@ -16,6 +16,13 @@
         android:theme="@style/Theme.Mimo"
         tools:targetApi="31">
         <activity
+            android:name=".Login_mailActivity2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Email_reg"
             android:exported="false">
             <meta-data
